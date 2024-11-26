@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .form-con{
+            background-color: blueviolet;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            box-shadow:0 0 10px black;
+            
+        }
+        #submit-btn{
+            background-color: chartreuse;
+            border: none;
+            border-radius: 10px;
+        }
+        #resetpassword{
+            background-color: chartreuse;
+            border: none;
+            border-radius: 10px;
+        }
+        input{
+            border-radius: 8px;
+            border:none;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-con">
+        <form action="" method="post" name="LoginForm">
+            <label for="uname">Username:</label><br>
+            <input type="text" id="uname"><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd">
+            <div class="radio-group">
+                <label for="">Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" value="male" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" id="female" value="female" name="gender">
+            </div>
+            <input type="button" value="Login" id="submit-btn" onclick="check()">
+            <input type="button" value="Reset password" id="resetpassword" onclick="resetpassword()">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="myxs.xsl"?>
+<BIKEMODEL>
+<CD>
+<COMPANY>Honda</COMPANY>
+<MODEL>Activa</MODEL>
+<COLOR>Red</COLOR>
+<YEAR>2003</YEAR>
+<PRICE>54k</PRICE>
+<ENGINE>Two Stroke</ENGINE>
+<MILEAGE>35Kmph</MILEAGE>
+</CD>
+<CD>
+<COMPANY>Bajaj</COMPANY>
+<MODEL>Platina</MODEL>
+<COLOR>Silver</COLOR>
+<YEAR>2008</YEAR>
+<PRICE>45k</PRICE>
+<ENGINE>Two Stroke</ENGINE>
+<MILEAGE>102Kmph</MILEAGE>
+</CD>
+<CD>
+<COMPANY>TVS</COMPANY>
+<MODEL>TVS-50</MODEL>
+<COLOR>Blue</COLOR>
+<YEAR>1993</YEAR>
+<PRICE>35k</PRICE>
+
+<ENGINE>Two Stroke</ENGINE>
+<MILEAGE>34Kmph</MILEAGE>
+</CD>
+<CD>
+<COMPANY>Yamaha</COMPANY>
+<MODEL>yamaha</MODEL>
+<COLOR>Black</COLOR>
+<YEAR>1999</YEAR>
+<PRICE>39k</PRICE>
+<ENGINE>Two Stroke</ENGINE>
+<MILEAGE>78Kmph</MILEAGE>
+</CD>
+<CD>
+<COMPANY>Scooty</COMPANY>
+<MODEL>Pep+</MODEL>
+<COLOR>violet</COLOR>
+<YEAR>2005</YEAR>
+<PRICE>28k</PRICE>
+<ENGINE>Two Stroke</ENGINE>
+<MILEAGE>67Kmph</MILEAGE>
+</CD>
+</BIKEMODEL>
